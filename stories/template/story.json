@@ -3,7 +3,7 @@
   "id": "chen-junming-phone",
   "title": "浚铭的手机：排练结束后",
   "description": "玩家以陈浚铭的视角整理手机，从群聊、私信、相册和备忘录里拼出排练结束后的一个小插曲。内容为虚构同人创作，不代表真实聊天或现实关系。",
-  "revision": 3,
+  "revision": 4,
   "phone": {
     "owner": "陈浚铭",
     "date": "2026-10-25",
@@ -266,6 +266,15 @@
         "sender": "陈浚铭",
         "time": "21:44",
         "kind": "text"
+      },
+      {
+        "id": "photo-hidden",
+        "title": "被藏起来的照片",
+        "body": "一张排练结束后的抓拍。照片背面写着：明天记得把话说完。",
+        "sender": "陈浚铭",
+        "time": "21:45",
+        "kind": "text",
+        "hidden": true
       }
     ],
     "notes": [
@@ -344,6 +353,141 @@
     ]
   },
   "variables": {},
-  "events": [],
-  "tests": []
+  "events": [
+    {
+      "id": "story-start",
+      "label": "手机亮起",
+      "type": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "左奇函：你到家了没？"
+        }
+      ]
+    },
+    {
+      "id": "secret-photo",
+      "label": "发现照片",
+      "event": "read",
+      "target": "zq-06",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-hidden",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "相册里多了一张隐藏照片。"
+        }
+      ]
+    },
+    {
+      "id": "next-morning",
+      "label": "第二天早上",
+      "type": "delay",
+      "delayMs": 1000,
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-10-26"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "08:55"
+        },
+        {
+          "type": "call",
+          "key": "morning-call",
+          "value": "左奇函"
+        }
+      ]
+    },
+    {
+      "id": "morning-call-answer",
+      "label": "接听电话",
+      "event": "callAnswered",
+      "target": "morning-call",
+      "next": [
+        "ending-talk",
+        "ending-later"
+      ]
+    },
+    {
+      "id": "ending-talk",
+      "label": "当面说清楚",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "把话说完：你带着那张照片去找左奇函，昨天没说完的话终于有机会继续。"
+        }
+      ]
+    },
+    {
+      "id": "ending-later",
+      "label": "先把早餐带过去",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "早餐优先：你决定先兑现群里的赌约，重要的话留到排练结束再说。"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "把话说完",
+      "steps": [
+        {
+          "event": "read",
+          "target": "zq-06"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "morning-call"
+        },
+        {
+          "choose": "ending-talk"
+        }
+      ],
+      "ending": "把话说完：你带着那张照片去找左奇函，昨天没说完的话终于有机会继续。",
+      "expectUnlocked": [
+        "photo-hidden"
+      ]
+    },
+    {
+      "name": "早餐优先",
+      "steps": [
+        {
+          "event": "read",
+          "target": "zq-06"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "morning-call"
+        },
+        {
+          "choose": "ending-later"
+        }
+      ],
+      "ending": "早餐优先：你决定先兑现群里的赌约，重要的话留到排练结束再说。",
+      "expectUnlocked": [
+        "photo-hidden"
+      ]
+    }
+  ]
 }
