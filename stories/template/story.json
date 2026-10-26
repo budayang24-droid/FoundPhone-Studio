@@ -3,7 +3,7 @@
   "id": "chen-junming-phone",
   "title": "浚铭的手机：排练结束后",
   "description": "玩家以陈浚铭的视角整理手机，从群聊、私信、相册和备忘录里拼出排练结束后的一个小插曲。内容为虚构同人创作，不代表真实聊天或现实关系。",
-  "revision": 9,
+  "revision": 10,
   "phone": {
     "owner": "陈浚铭",
     "date": "2026-10-25",
@@ -32,37 +32,43 @@
       "id": "zuoqihan",
       "name": "左奇函",
       "phone": "",
-      "bio": "同公司练习生"
+      "bio": "同公司练习生",
+      "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
     },
     {
       "id": "zhangguiyuan",
       "name": "张桂源",
       "phone": "",
-      "bio": "同公司练习生"
+      "bio": "同公司练习生",
+      "avatar": "https://m.iqiyipic.com/u2/image/20260104/b8/92/pv_1385039609588900_d_601_720_405.jpg"
     },
     {
       "id": "zhanghanrui",
       "name": "张函瑞",
       "phone": "",
-      "bio": "同公司练习生"
+      "bio": "同公司练习生",
+      "avatar": "https://i.pinimg.com/736x/28/b9/bd/28b9bdb2250af29b58b4cda98bdea790.jpg"
     },
     {
       "id": "yangbowen",
       "name": "杨博文",
       "phone": "",
-      "bio": "同公司练习生"
+      "bio": "同公司练习生",
+      "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202502/07/m7S5P4XXTNza6zz.thumb.400_400_c.jpg_webp"
     },
     {
       "id": "wanglujie",
       "name": "王橹杰",
       "phone": "",
-      "bio": "同公司练习生"
+      "bio": "同公司练习生",
+      "avatar": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/23369c0eb0e94f1b9867b376fe9fbd6c~tplv-xv4ileqgde-resize-w%3A750.image"
     },
     {
       "id": "chenyiheng",
       "name": "陈奕恒",
       "phone": "",
-      "bio": "同公司练习生"
+      "bio": "同公司练习生",
+      "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202410/21/bYS5XXEeHLyB43p.thumb.700_0.jpg"
     },
     {
       "id": "group4",
@@ -85,37 +91,64 @@
           "id": "zq-01",
           "body": "你手机是不是还在练习室？",
           "senderId": "zuoqihan",
-          "time": "21:48"
+          "time": "21:48",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
         },
         {
           "id": "zq-02",
           "body": "我刚才看见你拿着水就走了，手机落在音箱旁边。",
           "senderId": "zuoqihan",
-          "time": "21:48"
+          "time": "21:48",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
         },
         {
           "id": "zq-03",
           "body": "我回去拿了！差点真忘了。",
           "senderId": "owner",
-          "time": "21:51"
+          "time": "21:51",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "zq-04",
           "body": "嗯。还有东西在我这儿，明天给你。",
           "senderId": "zuoqihan",
-          "time": "21:52"
+          "time": "21:52",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
         },
         {
           "id": "zq-05",
           "body": "什么东西？",
           "senderId": "owner",
-          "time": "21:52"
+          "time": "21:52",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "zq-06",
           "body": "先不告诉你。早点睡，明天别又困得睁不开眼。",
           "senderId": "zuoqihan",
-          "time": "21:53"
+          "time": "21:53",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
+        },
+        {
+          "id": "zq-07",
+          "body": "还有，别把相册里那张糊掉的删了。",
+          "senderId": "zuoqihan",
+          "time": "21:54",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
+        },
+        {
+          "id": "zq-08",
+          "body": "……你怎么知道我存了？",
+          "senderId": "owner",
+          "time": "21:54",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
+        },
+        {
+          "id": "zq-09",
+          "body": "我猜的。明天再给你解释。",
+          "senderId": "zuoqihan",
+          "time": "21:55",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
         }
       ]
     },
@@ -137,55 +170,85 @@
           "id": "g-01",
           "body": "今天最后那遍终于顺了！",
           "senderId": "owner",
-          "time": "21:22"
+          "time": "21:22",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "g-02",
           "body": "是音响终于没跟我们作对了。",
           "senderId": "zhangguiyuan",
-          "time": "21:23"
+          "time": "21:23",
+          "avatar": "https://m.iqiyipic.com/u2/image/20260104/b8/92/pv_1385039609588900_d_601_720_405.jpg"
         },
         {
           "id": "g-03",
           "body": "有人把最后一遍的视频发群里吗？",
           "senderId": "yangbowen",
-          "time": "21:23"
+          "time": "21:23",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202502/07/m7S5P4XXTNza6zz.thumb.400_400_c.jpg_webp"
         },
         {
           "id": "g-04",
           "body": "我拍了，但是有个人结束动作差点笑场。",
           "senderId": "zuoqihan",
-          "time": "21:24"
+          "time": "21:24",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
         },
         {
           "id": "g-05",
           "body": "谁啊？你最好说清楚。",
           "senderId": "owner",
-          "time": "21:24"
+          "time": "21:24",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "g-06",
           "body": "某个姓陈的。",
           "senderId": "zuoqihan",
-          "time": "21:25"
+          "time": "21:25",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202403/02/eAS1pzJQcMmJqw4.thumb.700_0.jpg"
         },
         {
           "id": "g-07",
           "body": "视频删掉。现在。",
           "senderId": "owner",
-          "time": "21:25"
+          "time": "21:25",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "g-08",
           "body": "不删，留作证据。",
           "senderId": "zhanghanrui",
-          "time": "21:26"
+          "time": "21:26",
+          "avatar": "https://i.pinimg.com/736x/28/b9/bd/28b9bdb2250af29b58b4cda98bdea790.jpg"
         },
         {
           "id": "g-09",
           "body": "明天谁最早到谁买早餐，别装没看见。",
           "senderId": "wanglujie",
-          "time": "21:28"
+          "time": "21:28",
+          "avatar": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/23369c0eb0e94f1b9867b376fe9fbd6c~tplv-xv4ileqgde-resize-w%3A750.image"
+        },
+        {
+          "id": "g-10",
+          "body": "我会把视频剪掉一半，留另一半当证据。",
+          "senderId": "owner",
+          "time": "21:29",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
+        },
+        {
+          "id": "g-11",
+          "body": "你这叫主动留下证据。",
+          "senderId": "zhanghanrui",
+          "time": "21:29",
+          "avatar": "https://i.pinimg.com/736x/28/b9/bd/28b9bdb2250af29b58b4cda98bdea790.jpg"
+        },
+        {
+          "id": "g-12",
+          "body": "明早九点，谁迟到谁负责买两份。",
+          "senderId": "zhangguiyuan",
+          "time": "21:30",
+          "avatar": "https://m.iqiyipic.com/u2/image/20260104/b8/92/pv_1385039609588900_d_601_720_405.jpg"
         }
       ]
     },
@@ -202,19 +265,43 @@
           "id": "cyh-01",
           "body": "你落在镜子前面的发夹我先收着了。",
           "senderId": "chenyiheng",
-          "time": "21:36"
+          "time": "21:36",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202410/21/bYS5XXEeHLyB43p.thumb.700_0.jpg"
         },
         {
           "id": "cyh-02",
           "body": "那不是我的，是道具！",
           "senderId": "owner",
-          "time": "21:37"
+          "time": "21:37",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "cyh-03",
           "body": "好好好，道具。明天记得拿。",
           "senderId": "chenyiheng",
-          "time": "21:37"
+          "time": "21:37",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202410/21/bYS5XXEeHLyB43p.thumb.700_0.jpg"
+        },
+        {
+          "id": "cyh-04",
+          "body": "你是不是故意拿这个逗我？",
+          "senderId": "owner",
+          "time": "21:38",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
+        },
+        {
+          "id": "cyh-05",
+          "body": "我没有。是你每次解释都特别认真。",
+          "senderId": "chenyiheng",
+          "time": "21:38",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202410/21/bYS5XXEeHLyB43p.thumb.700_0.jpg"
+        },
+        {
+          "id": "cyh-06",
+          "body": "明天自己来拿，别忘了。",
+          "senderId": "chenyiheng",
+          "time": "21:39",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202410/21/bYS5XXEeHLyB43p.thumb.700_0.jpg"
         }
       ]
     },
@@ -253,31 +340,57 @@
           "id": "yb-01",
           "body": "你今天是不是又把最后那遍视频留着了？",
           "senderId": "yangbowen",
-          "time": "21:31"
+          "time": "21:31",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202502/07/m7S5P4XXTNza6zz.thumb.400_400_c.jpg_webp"
         },
         {
           "id": "yb-02",
           "body": "我想看一下队形哪里还能再齐一点。",
           "senderId": "owner",
-          "time": "21:32"
+          "time": "21:32",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "yb-03",
           "body": "发我吧，我帮你一起看。别自己一个人反复改到太晚。",
           "senderId": "yangbowen",
-          "time": "21:33"
+          "time": "21:33",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202502/07/m7S5P4XXTNza6zz.thumb.400_400_c.jpg_webp"
         },
         {
           "id": "yb-04",
           "body": "你也还没睡啊。",
           "senderId": "owner",
-          "time": "21:34"
+          "time": "21:34",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "yb-05",
           "body": "刚好醒着。视频看完再说，别偷偷焦虑。",
           "senderId": "yangbowen",
-          "time": "21:35"
+          "time": "21:35",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202502/07/m7S5P4XXTNza6zz.thumb.400_400_c.jpg_webp"
+        },
+        {
+          "id": "yb-06",
+          "body": "想进步不是问题，但别把休息也当成浪费。",
+          "senderId": "yangbowen",
+          "time": "21:36",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202502/07/m7S5P4XXTNza6zz.thumb.400_400_c.jpg_webp"
+        },
+        {
+          "id": "yb-07",
+          "body": "知道了，明天我会先把视频发你。",
+          "senderId": "owner",
+          "time": "21:37",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
+        },
+        {
+          "id": "yb-08",
+          "body": "好。一起看，别一个人反复改到半夜。",
+          "senderId": "yangbowen",
+          "time": "21:37",
+          "avatar": "https://c-ssl.dtstatic.com/uploads/blog/202502/07/m7S5P4XXTNza6zz.thumb.400_400_c.jpg_webp"
         }
       ]
     },
@@ -294,31 +407,57 @@
           "id": "zgy-01",
           "body": "明天早餐赌约还算数吧？",
           "senderId": "zhangguiyuan",
-          "time": "21:40"
+          "time": "21:40",
+          "avatar": "https://m.iqiyipic.com/u2/image/20260104/b8/92/pv_1385039609588900_d_601_720_405.jpg"
         },
         {
           "id": "zgy-02",
           "body": "你们一个两个都盯着早餐干什么。",
           "senderId": "owner",
-          "time": "21:40"
+          "time": "21:40",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "zgy-03",
           "body": "因为这是明天唯一不用排练的竞争项目。",
           "senderId": "zhangguiyuan",
-          "time": "21:41"
+          "time": "21:41",
+          "avatar": "https://m.iqiyipic.com/u2/image/20260104/b8/92/pv_1385039609588900_d_601_720_405.jpg"
         },
         {
           "id": "zgy-04",
           "body": "我先说，我不负责叫醒任何人。",
           "senderId": "owner",
-          "time": "21:41"
+          "time": "21:41",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "zgy-05",
           "body": "放心，我会在群里发十条消息叫醒大家。",
           "senderId": "zhangguiyuan",
-          "time": "21:42"
+          "time": "21:42",
+          "avatar": "https://m.iqiyipic.com/u2/image/20260104/b8/92/pv_1385039609588900_d_601_720_405.jpg"
+        },
+        {
+          "id": "zgy-06",
+          "body": "我已经编辑好十条起床提醒了。",
+          "senderId": "zhangguiyuan",
+          "time": "21:43",
+          "avatar": "https://m.iqiyipic.com/u2/image/20260104/b8/92/pv_1385039609588900_d_601_720_405.jpg"
+        },
+        {
+          "id": "zgy-07",
+          "body": "撤回。现在。",
+          "senderId": "owner",
+          "time": "21:43",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
+        },
+        {
+          "id": "zgy-08",
+          "body": "来不及了，群里已经排好队。",
+          "senderId": "zhangguiyuan",
+          "time": "21:44",
+          "avatar": "https://m.iqiyipic.com/u2/image/20260104/b8/92/pv_1385039609588900_d_601_720_405.jpg"
         }
       ]
     },
@@ -335,31 +474,50 @@
           "id": "zhr-01",
           "body": "群里的视频我存了。",
           "senderId": "zhanghanrui",
-          "time": "21:47"
+          "time": "21:47",
+          "avatar": "https://i.pinimg.com/736x/28/b9/bd/28b9bdb2250af29b58b4cda98bdea790.jpg"
         },
         {
           "id": "zhr-02",
           "body": "你怎么也存了？！",
           "senderId": "owner",
-          "time": "21:47"
+          "time": "21:47",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "zhr-03",
           "body": "放心，只存了大家都能看的版本。",
           "senderId": "zhanghanrui",
-          "time": "21:48"
+          "time": "21:48",
+          "avatar": "https://i.pinimg.com/736x/28/b9/bd/28b9bdb2250af29b58b4cda98bdea790.jpg"
         },
         {
           "id": "zhr-04",
           "body": "这句话听起来一点也不让人放心。",
           "senderId": "owner",
-          "time": "21:48"
+          "time": "21:48",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "zhr-05",
           "body": "那明天你早点来，我当面给你看。",
           "senderId": "zhanghanrui",
-          "time": "21:49"
+          "time": "21:49",
+          "avatar": "https://i.pinimg.com/736x/28/b9/bd/28b9bdb2250af29b58b4cda98bdea790.jpg"
+        },
+        {
+          "id": "zhr-06",
+          "body": "明天别迟到，我当面给你看。",
+          "senderId": "zhanghanrui",
+          "time": "21:49",
+          "avatar": "https://i.pinimg.com/736x/28/b9/bd/28b9bdb2250af29b58b4cda98bdea790.jpg"
+        },
+        {
+          "id": "zhr-07",
+          "body": "我会准时。你也不许临时改口。",
+          "senderId": "owner",
+          "time": "21:50",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         }
       ]
     },
@@ -376,31 +534,50 @@
           "id": "wlj-01",
           "body": "提醒一下，明天九点早餐。",
           "senderId": "wanglujie",
-          "time": "21:50"
+          "time": "21:50",
+          "avatar": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/23369c0eb0e94f1b9867b376fe9fbd6c~tplv-xv4ileqgde-resize-w%3A750.image"
         },
         {
           "id": "wlj-02",
           "body": "我知道了！",
           "senderId": "owner",
-          "time": "21:50"
+          "time": "21:50",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "wlj-03",
           "body": "你每次说知道了，第二天都要再提醒一次。",
           "senderId": "wanglujie",
-          "time": "21:51"
+          "time": "21:51",
+          "avatar": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/23369c0eb0e94f1b9867b376fe9fbd6c~tplv-xv4ileqgde-resize-w%3A750.image"
         },
         {
           "id": "wlj-04",
           "body": "这次真的记住了。",
           "senderId": "owner",
-          "time": "21:51"
+          "time": "21:51",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         },
         {
           "id": "wlj-05",
           "body": "我把日历邀请发你了。别怪我没提醒。",
           "senderId": "wanglujie",
-          "time": "21:52"
+          "time": "21:52",
+          "avatar": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/23369c0eb0e94f1b9867b376fe9fbd6c~tplv-xv4ileqgde-resize-w%3A750.image"
+        },
+        {
+          "id": "wlj-06",
+          "body": "你九点还没到，我就把你的面包吃了。",
+          "senderId": "wanglujie",
+          "time": "21:53",
+          "avatar": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/23369c0eb0e94f1b9867b376fe9fbd6c~tplv-xv4ileqgde-resize-w%3A750.image"
+        },
+        {
+          "id": "wlj-07",
+          "body": "你这是提醒还是威胁？",
+          "senderId": "owner",
+          "time": "21:53",
+          "avatar": "https://img.xingxiaoculture.com/origin/2025/08/05/8f2fe2fec5d32647ea16e4334a04e6db1754325087.jpg"
         }
       ]
     }
@@ -457,6 +634,31 @@
         "time": "21:49",
         "kind": "text",
         "hidden": true
+      },
+      {
+        "id": "photo-04",
+        "title": "被划掉的最后一行",
+        "body": "纸条最下面原本写着一个人的名字，后来又被匆匆划掉。笔迹和前面几行不太一样。",
+        "sender": "陈浚铭",
+        "time": "21:46",
+        "kind": "text"
+      },
+      {
+        "id": "photo-05",
+        "title": "练习室门口",
+        "body": "门口地板上有两瓶没喝完的水，一瓶贴着名字，另一瓶的标签被撕掉了。",
+        "sender": "陈浚铭",
+        "time": "21:47",
+        "kind": "text"
+      },
+      {
+        "id": "photo-group-hint",
+        "title": "群聊里的线索",
+        "body": "早餐赌约下面还有一条被折叠的消息：谁拿到纸条，谁就知道明天要交什么。",
+        "sender": "陈浚铭",
+        "time": "21:30",
+        "kind": "text",
+        "hidden": true
       }
     ],
     "notes": [
@@ -484,7 +686,8 @@
         "sender": "陈浚铭",
         "time": "21:37",
         "kind": "note",
-        "folder": "支线记录"
+        "folder": "支线记录",
+        "hidden": true
       },
       {
         "id": "note-group-branch",
@@ -493,7 +696,27 @@
         "sender": "陈浚铭",
         "time": "21:53",
         "kind": "note",
-        "folder": "支线记录"
+        "folder": "支线记录",
+        "hidden": true
+      },
+      {
+        "id": "note-03",
+        "title": "视频复盘清单",
+        "body": "1. 对齐最后八拍\\n2. 看一次镜头位置\\n3. 把修改版发给杨博文\\n4. 到点就停，不再无限重看。",
+        "sender": "陈浚铭",
+        "time": "22:02",
+        "kind": "note",
+        "folder": "练习记录"
+      },
+      {
+        "id": "note-clip-hidden",
+        "title": "发夹的真正用途",
+        "body": "那枚发夹不是舞台道具。背面贴着一小截纸胶带，上面写着：周一交还。",
+        "sender": "陈浚铭",
+        "time": "21:39",
+        "kind": "note",
+        "folder": "未解锁",
+        "hidden": true
       }
     ],
     "calendar": [
@@ -512,6 +735,33 @@
         "sender": "日历",
         "time": "明天 09:00",
         "kind": "event"
+      },
+      {
+        "id": "cal-video-review",
+        "title": "视频复盘",
+        "body": "和杨博文一起看最后一遍视频，只改最必要的几处。",
+        "sender": "日历",
+        "time": "明天 10:15",
+        "kind": "event",
+        "hidden": true
+      },
+      {
+        "id": "cal-breakfast-plan",
+        "title": "早餐起床提醒",
+        "body": "闹钟响了就起床。迟到的人负责买两份早餐，群聊已确认。",
+        "sender": "日历",
+        "time": "明天 08:40",
+        "kind": "event",
+        "hidden": true
+      },
+      {
+        "id": "cal-clip-return",
+        "title": "取回发夹",
+        "body": "别忘了向陈奕恒取回那枚“道具发夹”。",
+        "sender": "日历",
+        "time": "明天 09:15",
+        "kind": "event",
+        "hidden": true
       }
     ],
     "phone": [
@@ -529,6 +779,22 @@
         "body": "21:49 · 已接来电 · 00:08",
         "sender": "通话记录",
         "time": "21:49",
+        "kind": "call"
+      },
+      {
+        "id": "call-03",
+        "title": "杨博文",
+        "body": "21:35 · 已接来电 · 01:12",
+        "sender": "通话记录",
+        "time": "21:35",
+        "kind": "call"
+      },
+      {
+        "id": "call-04",
+        "title": "张桂源",
+        "body": "21:42 · 未接来电 · 00:00",
+        "sender": "通话记录",
+        "time": "21:42",
         "kind": "call"
       }
     ],
@@ -549,6 +815,89 @@
         "sender": "陈浚铭",
         "time": "22:08",
         "folder": "草稿"
+      },
+      {
+        "id": "post-02",
+        "title": "今晚的碎碎念",
+        "body": "最后一遍终于顺了。虽然每个人都说累，但收拾东西的时候又都慢吞吞的，谁也没真的想先走。",
+        "sender": "陈浚铭",
+        "time": "22:11",
+        "folder": "草稿",
+        "kind": "post",
+        "likes": 8,
+        "comments": [
+          "张桂源：明早别迟到。",
+          "张函瑞：视频我留着了。"
+        ],
+        "meta": {
+          "handle": "chenjunming_draft",
+          "reposts": "2"
+        }
+      },
+      {
+        "id": "post-03",
+        "title": "未发布",
+        "body": "有些话打出来又删掉，好像明天当面说会更容易一点。",
+        "sender": "陈浚铭",
+        "time": "22:13",
+        "folder": "草稿",
+        "kind": "post",
+        "likes": 0,
+        "comments": [],
+        "meta": {
+          "handle": "chenjunming_draft"
+        }
+      }
+    ],
+    "douyin": [
+      {
+        "id": "dy-01",
+        "title": "最后一遍的后台片段",
+        "body": "12 秒的练习室片段，镜头晃得厉害，结尾是有人没忍住笑场。画面下方没有配文。",
+        "sender": "陈浚铭",
+        "time": "21:25",
+        "kind": "post",
+        "folder": "草稿",
+        "likes": 21,
+        "comments": [
+          "张函瑞：不删。"
+        ],
+        "meta": {
+          "duration": "00:12",
+          "handle": "chenjunming_draft"
+        }
+      },
+      {
+        "id": "dy-02",
+        "title": "未保存的剪辑",
+        "body": "视频剪到一半停了下来。时间轴末尾还留着三秒空白，像是在等一句没录进去的话。",
+        "sender": "陈浚铭",
+        "time": "21:59",
+        "kind": "post",
+        "folder": "草稿",
+        "likes": 0,
+        "comments": [],
+        "meta": {
+          "duration": "00:08",
+          "handle": "chenjunming_draft"
+        }
+      },
+      {
+        "id": "dy-03",
+        "title": "早餐倒计时",
+        "body": "群聊里有人发了一个倒计时贴纸，底下是六个表情和一句“九点见，迟到请客”。",
+        "sender": "张桂源",
+        "time": "22:00",
+        "kind": "post",
+        "folder": "朋友动态",
+        "likes": 13,
+        "comments": [
+          "王橹杰：我会记账。"
+        ],
+        "meta": {
+          "duration": "00:06",
+          "handle": "zhangguiyuan"
+        }
       }
     ]
   },
@@ -691,6 +1040,88 @@
           "value": "相册里解锁了一张排练结束的抓拍。"
         }
       ]
+    },
+    {
+      "id": "group-clue-branch",
+      "label": "群聊里的早餐线索",
+      "event": "read",
+      "target": "g-09",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-group-hint",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "cal-breakfast-plan",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "群聊里似乎还有一条被遗漏的线索。"
+        }
+      ]
+    },
+    {
+      "id": "chenyiheng-branch",
+      "label": "陈奕恒的道具支线",
+      "event": "read",
+      "target": "cyh-03",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-clip-hidden",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "cal-clip-return",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "备忘录多了一条关于发夹的记录。"
+        }
+      ]
+    },
+    {
+      "id": "wanglujie-branch",
+      "label": "王橹杰的日历支线",
+      "event": "read",
+      "target": "wlj-05",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "cal-breakfast-plan",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "日历新增了早餐提醒。"
+        }
+      ]
+    },
+    {
+      "id": "zhangguiyuan-branch",
+      "label": "张桂源的起床支线",
+      "event": "read",
+      "target": "zgy-05",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "cal-breakfast-plan",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "日历里新增了一条早餐起床提醒。"
+        }
+      ]
     }
   ],
   "tests": [
@@ -739,6 +1170,179 @@
       "expectUnlocked": [
         "photo-hidden"
       ]
+    },
+    {
+      "name": "杨博文复盘支线",
+      "steps": [
+        {
+          "event": "read",
+          "target": "yb-05"
+        },
+        {
+          "event": "read",
+          "target": "zq-06"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "morning-call"
+        },
+        {
+          "choose": "ending-talk"
+        }
+      ],
+      "ending": "把话说完：你带着那张照片去找左奇函，昨天没说完的话终于有机会继续。",
+      "expectUnlocked": [
+        "photo-hidden",
+        "photo-yb-hidden",
+        "note-yb-branch",
+        "cal-video-review"
+      ]
+    },
+    {
+      "name": "张函瑞视频支线",
+      "steps": [
+        {
+          "event": "read",
+          "target": "zhr-05"
+        },
+        {
+          "event": "read",
+          "target": "zq-06"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "morning-call"
+        },
+        {
+          "choose": "ending-talk"
+        }
+      ],
+      "ending": "把话说完：你带着那张照片去找左奇函，昨天没说完的话终于有机会继续。",
+      "expectUnlocked": [
+        "photo-hidden",
+        "photo-zhr-hidden",
+        "note-group-branch"
+      ]
+    },
+    {
+      "name": "群聊早餐线索",
+      "steps": [
+        {
+          "event": "read",
+          "target": "g-09"
+        },
+        {
+          "event": "read",
+          "target": "zq-06"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "morning-call"
+        },
+        {
+          "choose": "ending-talk"
+        }
+      ],
+      "ending": "把话说完：你带着那张照片去找左奇函，昨天没说完的话终于有机会继续。",
+      "expectUnlocked": [
+        "photo-hidden",
+        "photo-group-hint",
+        "cal-breakfast-plan"
+      ]
+    },
+    {
+      "name": "陈奕恒道具支线",
+      "steps": [
+        {
+          "event": "read",
+          "target": "cyh-03"
+        },
+        {
+          "event": "read",
+          "target": "zq-06"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "morning-call"
+        },
+        {
+          "choose": "ending-talk"
+        }
+      ],
+      "ending": "把话说完：你带着那张照片去找左奇函，昨天没说完的话终于有机会继续。",
+      "expectUnlocked": [
+        "photo-hidden",
+        "note-clip-hidden",
+        "cal-clip-return"
+      ]
+    },
+    {
+      "name": "王橹杰日历支线",
+      "steps": [
+        {
+          "event": "read",
+          "target": "wlj-05"
+        },
+        {
+          "event": "read",
+          "target": "zq-06"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "morning-call"
+        },
+        {
+          "choose": "ending-talk"
+        }
+      ],
+      "ending": "把话说完：你带着那张照片去找左奇函，昨天没说完的话终于有机会继续。",
+      "expectUnlocked": [
+        "photo-hidden",
+        "cal-breakfast-plan"
+      ]
+    },
+    {
+      "name": "张桂源起床支线",
+      "steps": [
+        {
+          "event": "read",
+          "target": "zgy-05"
+        },
+        {
+          "event": "read",
+          "target": "zq-06"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "morning-call"
+        },
+        {
+          "choose": "ending-talk"
+        }
+      ],
+      "ending": "把话说完：你带着那张照片去找左奇函，昨天没说完的话终于有机会继续。",
+      "expectUnlocked": [
+        "photo-hidden",
+        "cal-breakfast-plan"
+      ]
     }
   ]
-}
+}\n

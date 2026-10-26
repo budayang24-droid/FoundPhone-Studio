@@ -195,10 +195,26 @@ export function makeItem(partial: Partial<Item> = {}): Item {
 export function validateWork(input: unknown): Work {
   return workSchema.parse(input);
 }
+const REMOTE_IMAGE_HOSTS = new Set([
+  "c-ssl.dtstatic.com",
+  "img.xingxiaoculture.com",
+  "i.pinimg.com",
+  "p3-sdbk2-media.byteimg.com",
+  "m.iqiyipic.com",
+]);
 export function safeMedia(value: string) {
-  return /^data:(image\/(png|jpeg|webp|gif)|audio\/(mpeg|mp3|wav|ogg|webm|mp4)|video\/(mp4|webm));base64,[a-zA-Z0-9+/=\s]+$/.test(
-    value,
+  if (
+    /^data:(image\/(png|jpeg|webp|gif)|audio\/(mpeg|mp3|wav|ogg|webm|mp4)|video\/(mp4|webm));base64,[a-zA-Z0-9+/=\s]+$/.test(
+      value,
+    )
   )
-    ? value
-    : "";
+    return value;
+  try {
+    const url = new URL(value);
+    if (url.protocol === "https:" && REMOTE_IMAGE_HOSTS.has(url.hostname))
+      return url.href;
+  } catch {
+    // Invalid or unsupported media sources fall back to a text avatar.
+  }
+  return "";
 }

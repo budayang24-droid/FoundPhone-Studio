@@ -57,15 +57,47 @@ function Avatar({
   round?: boolean;
   src?: string;
 }) {
+  const image = safeMedia(src);
   return (
     <span className={`skin-avatar ${round ? "round" : ""}`}>
-      {safeMedia(src)?.startsWith("data:image/") ? (
-        <img src={safeMedia(src)} alt="" />
-      ) : (
-        name.slice(0, 1)
-      )}
+      {image ? <img src={image} alt="" loading="lazy" /> : name.slice(0, 1)}
     </span>
   );
+}
+function WeChatConversationAvatar({
+  title,
+  items,
+}: {
+  title: string;
+  items: Item[];
+}) {
+  const participantCount =
+    items[0]?.meta?.participants?.split(",").filter(Boolean).length ?? 0;
+  const faces = [
+    ...new Map(
+      items
+        .filter((item) => !item.outgoing && item.avatar)
+        .map((item) => [item.sender, item]),
+    ).values(),
+  ].slice(0, 4);
+  if (participantCount > 2) {
+    const fallbackFaces = items.filter((item) => !item.outgoing).slice(0, 4);
+    return (
+      <span className="wx-group-avatar" aria-label={`${title}群聊头像`}>
+        {(faces.length ? faces : fallbackFaces).map((item, index) => (
+          <Avatar
+            key={`${item.sender}-${index}`}
+            name={item.sender}
+            src={item.avatar}
+          />
+        ))}
+      </span>
+    );
+  }
+  const avatarItem =
+    items.find((item) => !item.outgoing && item.avatar) ??
+    items.find((item) => item.avatar);
+  return <Avatar name={title} src={avatarItem?.avatar ?? ""} />;
 }
 function ItemMedia({ item }: { item: Item }) {
   const src = safeMedia(item.media);
@@ -154,6 +186,7 @@ function Compose({
 export function WeChatSkin(p: SkinProps) {
   const [tab, setTab] = useState("微信"),
     [query, setQuery] = useState(""),
+    [contactQuery, setContactQuery] = useState(""),
     [moments, setMoments] = useState(false),
     [menu, setMenu] = useState(false),
     [searchOpen, setSearchOpen] = useState(false),
@@ -171,8 +204,22 @@ export function WeChatSkin(p: SkinProps) {
     ),
   ];
   const contacts = [
-    ...new Set(p.items.map((i) => i.sender).filter((s) => s !== "我")),
-  ];
+    ...new Set(
+      p.items
+        .map((i) => i.sender)
+        .filter((s) => s !== "我" && s !== (p.owner || "机主")),
+    ),
+  ].sort((a, b) => a.localeCompare(b, "zh-CN"));
+  const filteredContacts = contacts.filter((name) =>
+    name.toLocaleLowerCase().includes(contactQuery.trim().toLocaleLowerCase()),
+  );
+  const groupConversations = conversations.filter((title) =>
+    p.items.some(
+      (item) =>
+        item.title === title &&
+        (item.meta?.participants?.split(",").filter(Boolean).length ?? 0) > 2,
+    ),
+  );
   const posts = p.items.filter(
     (i) => i.folder === "朋友圈" || i.kind === "post",
   );
@@ -350,7 +397,7 @@ export function WeChatSkin(p: SkinProps) {
                       }}
                     >
                       <span className="wx-chat-avatar">
-                        <Avatar name={t} src={last.avatar} />
+                        <WeChatConversationAvatar title={t} items={list} />
                         {!readThreads.includes(t) &&
                           list.some((i) => !i.read) && (
                             <b className="wx-unread">
@@ -370,26 +417,73 @@ export function WeChatSkin(p: SkinProps) {
             </>
           ) : tab === "通讯录" ? (
             <>
-              <div className="wx-section-label">联系人</div>
-              {contacts.map((c) => (
-                <button
-                  key={c}
-                  className="wx-contact"
-                  onClick={() => {
-                    const item = p.items.find((i) => i.sender === c);
-                    if (item) {
-                      p.onThread(item.title);
-                      p.onRead(item.title);
-                    }
-                  }}
-                >
-                  <Avatar
-                    name={c}
-                    src={p.items.find((i) => i.sender === c)?.avatar}
-                  />
-                  {c}
-                </button>
-              ))}
+              <label className="wx-search wx-contact-search">
+                <Search size={14} />
+                <input
+                  aria-label="搜索联系人"
+                  placeholder="搜索联系人"
+                  value={contactQuery}
+                  onChange={(e) => setContactQuery(e.target.value)}
+                />
+              </label>
+              {groupConversations.length > 0 && (
+                <>
+                  <div className="wx-section-label">群聊</div>
+                  {groupConversations.map((title) => {
+                    const list = p.items.filter((item) => item.title === title);
+                    return (
+                      <button
+                        key={`group-${title}`}
+                        className="wx-contact"
+                        onClick={() => {
+                          p.onThread(title);
+                          p.onRead(title);
+                        }}
+                      >
+                        <WeChatConversationAvatar title={title} items={list} />
+                        <span className="wx-contact-name">{title}</span>
+                        <span className="wx-contact-chevron">›</span>
+                      </button>
+                    );
+                  })}
+                </>
+              )}
+              <div className="wx-section-label">
+                联系人（{filteredContacts.length}）
+              </div>
+              {filteredContacts.map((name) => {
+                const directMessage = p.items.find(
+                  (item) =>
+                    item.sender === name &&
+                    (item.meta?.participants?.split(",").filter(Boolean).length ??
+                      0) === 2,
+                );
+                const fallbackMessage = p.items.find(
+                  (item) => item.sender === name,
+                );
+                const target = directMessage?.title ?? fallbackMessage?.title;
+                const avatar =
+                  p.items.find((item) => item.sender === name && item.avatar)
+                    ?.avatar ?? "";
+                return (
+                  <button
+                    key={name}
+                    className="wx-contact"
+                    onClick={() => {
+                      if (target) {
+                        p.onThread(target);
+                        p.onRead(target);
+                      }
+                    }}
+                  >
+                    <Avatar name={name} src={avatar} />
+                    <span className="wx-contact-name">{name}</span>
+                  </button>
+                );
+              })}
+              {!filteredContacts.length && (
+                <p className="skin-empty">没有找到联系人</p>
+              )}
             </>
           ) : tab === "发现" ? (
             <div className="wx-discover-groups">
