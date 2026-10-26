@@ -1017,9 +1017,19 @@
           "value": true
         },
         {
+          "type": "unlock",
+          "key": "note-yb-branch",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "cal-video-review",
+          "value": true
+        },
+        {
           "type": "notification",
           "key": "",
-          "value": "杨博文发来一条补充消息：别把所有事都揽给自己。"
+          "value": "杨博文发来补充消息：别把所有事都揽给自己。"
         }
       ]
     },
@@ -1032,6 +1042,11 @@
         {
           "type": "unlock",
           "key": "photo-zhr-hidden",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "note-group-branch",
           "value": true
         },
         {
@@ -1345,4 +1360,4 @@
       ]
     }
   ]
-}\n
+}

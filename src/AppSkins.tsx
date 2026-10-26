@@ -77,7 +77,7 @@ function WeChatConversationAvatar({
     ...new Map(
       items
         .filter((item) => !item.outgoing && item.avatar)
-        .map((item) => [item.sender, item]),
+        .map((item) => [item.sender, item] as const),
     ).values(),
   ].slice(0, 4);
   if (participantCount > 2) {
