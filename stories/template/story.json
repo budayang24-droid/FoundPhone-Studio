@@ -3,7 +3,7 @@
   "id": "chen-junming-phone",
   "title": "浚铭的手机：排练结束后",
   "description": "玩家以陈浚铭的视角整理手机，从群聊、私信、相册和备忘录里拼出排练结束后的一个小插曲。内容为虚构同人创作，不代表真实聊天或现实关系。",
-  "revision": 8,
+  "revision": 9,
   "phone": {
     "owner": "陈浚铭",
     "date": "2026-10-25",
@@ -239,6 +239,170 @@
           "time": "22:03"
         }
       ]
+    },
+    {
+      "id": "chat-yangbowen",
+      "app": "wechat",
+      "title": "杨博文",
+      "participants": [
+        "owner",
+        "yangbowen"
+      ],
+      "messages": [
+        {
+          "id": "yb-01",
+          "body": "你今天是不是又把最后那遍视频留着了？",
+          "senderId": "yangbowen",
+          "time": "21:31"
+        },
+        {
+          "id": "yb-02",
+          "body": "我想看一下队形哪里还能再齐一点。",
+          "senderId": "owner",
+          "time": "21:32"
+        },
+        {
+          "id": "yb-03",
+          "body": "发我吧，我帮你一起看。别自己一个人反复改到太晚。",
+          "senderId": "yangbowen",
+          "time": "21:33"
+        },
+        {
+          "id": "yb-04",
+          "body": "你也还没睡啊。",
+          "senderId": "owner",
+          "time": "21:34"
+        },
+        {
+          "id": "yb-05",
+          "body": "刚好醒着。视频看完再说，别偷偷焦虑。",
+          "senderId": "yangbowen",
+          "time": "21:35"
+        }
+      ]
+    },
+    {
+      "id": "chat-zhangguiyuan",
+      "app": "wechat",
+      "title": "张桂源",
+      "participants": [
+        "owner",
+        "zhangguiyuan"
+      ],
+      "messages": [
+        {
+          "id": "zgy-01",
+          "body": "明天早餐赌约还算数吧？",
+          "senderId": "zhangguiyuan",
+          "time": "21:40"
+        },
+        {
+          "id": "zgy-02",
+          "body": "你们一个两个都盯着早餐干什么。",
+          "senderId": "owner",
+          "time": "21:40"
+        },
+        {
+          "id": "zgy-03",
+          "body": "因为这是明天唯一不用排练的竞争项目。",
+          "senderId": "zhangguiyuan",
+          "time": "21:41"
+        },
+        {
+          "id": "zgy-04",
+          "body": "我先说，我不负责叫醒任何人。",
+          "senderId": "owner",
+          "time": "21:41"
+        },
+        {
+          "id": "zgy-05",
+          "body": "放心，我会在群里发十条消息叫醒大家。",
+          "senderId": "zhangguiyuan",
+          "time": "21:42"
+        }
+      ]
+    },
+    {
+      "id": "chat-zhanghanrui",
+      "app": "wechat",
+      "title": "张函瑞",
+      "participants": [
+        "owner",
+        "zhanghanrui"
+      ],
+      "messages": [
+        {
+          "id": "zhr-01",
+          "body": "群里的视频我存了。",
+          "senderId": "zhanghanrui",
+          "time": "21:47"
+        },
+        {
+          "id": "zhr-02",
+          "body": "你怎么也存了？！",
+          "senderId": "owner",
+          "time": "21:47"
+        },
+        {
+          "id": "zhr-03",
+          "body": "放心，只存了大家都能看的版本。",
+          "senderId": "zhanghanrui",
+          "time": "21:48"
+        },
+        {
+          "id": "zhr-04",
+          "body": "这句话听起来一点也不让人放心。",
+          "senderId": "owner",
+          "time": "21:48"
+        },
+        {
+          "id": "zhr-05",
+          "body": "那明天你早点来，我当面给你看。",
+          "senderId": "zhanghanrui",
+          "time": "21:49"
+        }
+      ]
+    },
+    {
+      "id": "chat-wanglujie",
+      "app": "wechat",
+      "title": "王橹杰",
+      "participants": [
+        "owner",
+        "wanglujie"
+      ],
+      "messages": [
+        {
+          "id": "wlj-01",
+          "body": "提醒一下，明天九点早餐。",
+          "senderId": "wanglujie",
+          "time": "21:50"
+        },
+        {
+          "id": "wlj-02",
+          "body": "我知道了！",
+          "senderId": "owner",
+          "time": "21:50"
+        },
+        {
+          "id": "wlj-03",
+          "body": "你每次说知道了，第二天都要再提醒一次。",
+          "senderId": "wanglujie",
+          "time": "21:51"
+        },
+        {
+          "id": "wlj-04",
+          "body": "这次真的记住了。",
+          "senderId": "owner",
+          "time": "21:51"
+        },
+        {
+          "id": "wlj-05",
+          "body": "我把日历邀请发你了。别怪我没提醒。",
+          "senderId": "wanglujie",
+          "time": "21:52"
+        }
+      ]
     }
   ],
   "content": {
@@ -275,6 +439,24 @@
         "time": "21:45",
         "kind": "text",
         "hidden": true
+      },
+      {
+        "id": "photo-yb-hidden",
+        "title": "视频旁边的备注",
+        "body": "杨博文在队形截图旁边写了几处修改建议，最后补了一句：别把所有事都揽给自己。",
+        "sender": "陈浚铭",
+        "time": "21:36",
+        "kind": "text",
+        "hidden": true
+      },
+      {
+        "id": "photo-zhr-hidden",
+        "title": "没删掉的抓拍",
+        "body": "一张排练结束时的模糊抓拍。大家都在笑，只有你还在看镜头外的人。",
+        "sender": "陈浚铭",
+        "time": "21:49",
+        "kind": "text",
+        "hidden": true
       }
     ],
     "notes": [
@@ -294,6 +476,24 @@
         "time": "22:01",
         "kind": "note",
         "folder": "草稿"
+      },
+      {
+        "id": "note-yb-branch",
+        "title": "视频复盘",
+        "body": "杨博文说可以一起看视频。原来有人会发现你已经反复看了很多遍。",
+        "sender": "陈浚铭",
+        "time": "21:37",
+        "kind": "note",
+        "folder": "支线记录"
+      },
+      {
+        "id": "note-group-branch",
+        "title": "明早早餐行动",
+        "body": "张桂源负责在群里叫人，张函瑞留了视频，王橹杰发了日历邀请。看起来谁也别想睡懒觉。",
+        "sender": "陈浚铭",
+        "time": "21:53",
+        "kind": "note",
+        "folder": "支线记录"
       }
     ],
     "calendar": [
@@ -453,6 +653,42 @@
           "type": "ending",
           "key": "",
           "value": "早餐优先：你决定先兑现群里的赌约，重要的话留到排练结束再说。"
+        }
+      ]
+    },
+    {
+      "id": "yangbowen-branch",
+      "label": "杨博文的复盘支线",
+      "event": "read",
+      "target": "yb-05",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-yb-hidden",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "杨博文发来一条补充消息：别把所有事都揽给自己。"
+        }
+      ]
+    },
+    {
+      "id": "zhanghanrui-branch",
+      "label": "张函瑞的视频支线",
+      "event": "read",
+      "target": "zhr-05",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-zhr-hidden",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "相册里解锁了一张排练结束的抓拍。"
         }
       ]
     }
