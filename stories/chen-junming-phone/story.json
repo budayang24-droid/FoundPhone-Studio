@@ -1,0 +1,349 @@
+{
+  "scriptVersion": 1,
+  "id": "chen-junming-phone",
+  "title": "浚铭的手机：排练结束后",
+  "description": "玩家以陈浚铭的视角整理手机，从群聊、私信、相册和备忘录里拼出排练结束后的一个小插曲。内容为虚构同人创作，不代表真实聊天或现实关系。",
+  "revision": 1,
+  "phone": {
+    "owner": "陈浚铭",
+    "date": "2026-10-25",
+    "time": "22:17",
+    "battery": 38,
+    "network": "5G",
+    "wallpaper": "sage"
+  },
+  "installedApps": [
+    "wechat",
+    "messages",
+    "phone",
+    "contacts",
+    "photos",
+    "notes",
+    "calendar",
+    "clock",
+    "camera",
+    "music",
+    "weibo",
+    "douyin",
+    "settings"
+  ],
+  "contacts": [
+    {
+      "id": "zuoqihan",
+      "name": "左奇函",
+      "phone": "",
+      "bio": "同公司练习生"
+    },
+    {
+      "id": "zhangguiyuan",
+      "name": "张桂源",
+      "phone": "",
+      "bio": "同公司练习生"
+    },
+    {
+      "id": "zhanghanrui",
+      "name": "张函瑞",
+      "phone": "",
+      "bio": "同公司练习生"
+    },
+    {
+      "id": "yangbowen",
+      "name": "杨博文",
+      "phone": "",
+      "bio": "同公司练习生"
+    },
+    {
+      "id": "wanglujie",
+      "name": "王橹杰",
+      "phone": "",
+      "bio": "同公司练习生"
+    },
+    {
+      "id": "chenyiheng",
+      "name": "陈奕恒",
+      "phone": "",
+      "bio": "同公司练习生"
+    },
+    {
+      "id": "group4",
+      "name": "四代练习室（群聊）",
+      "phone": "",
+      "bio": "虚构群聊"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-zuoqihan",
+      "app": "wechat",
+      "title": "左奇函",
+      "participants": [
+        "owner",
+        "zuoqihan"
+      ],
+      "messages": [
+        {
+          "id": "zq-01",
+          "body": "你手机是不是还在练习室？",
+          "senderId": "zuoqihan",
+          "time": "21:48"
+        },
+        {
+          "id": "zq-02",
+          "body": "我刚才看见你拿着水就走了，手机落在音箱旁边。",
+          "senderId": "zuoqihan",
+          "time": "21:48"
+        },
+        {
+          "id": "zq-03",
+          "body": "我回去拿了！差点真忘了。",
+          "senderId": "owner",
+          "time": "21:51"
+        },
+        {
+          "id": "zq-04",
+          "body": "嗯。还有东西在我这儿，明天给你。",
+          "senderId": "zuoqihan",
+          "time": "21:52"
+        },
+        {
+          "id": "zq-05",
+          "body": "什么东西？",
+          "senderId": "owner",
+          "time": "21:52"
+        },
+        {
+          "id": "zq-06",
+          "body": "先不告诉你。早点睡，明天别又困得睁不开眼。",
+          "senderId": "zuoqihan",
+          "time": "21:53"
+        }
+      ]
+    },
+    {
+      "id": "chat-group",
+      "app": "wechat",
+      "title": "四代练习室（群聊）",
+      "participants": [
+        "owner",
+        "zuoqihan",
+        "zhangguiyuan",
+        "zhanghanrui",
+        "yangbowen",
+        "wanglujie",
+        "chenyiheng"
+      ],
+      "messages": [
+        {
+          "id": "g-01",
+          "body": "今天最后那遍终于顺了！",
+          "senderId": "owner",
+          "time": "21:22"
+        },
+        {
+          "id": "g-02",
+          "body": "是音响终于没跟我们作对了。",
+          "senderId": "zhangguiyuan",
+          "time": "21:23"
+        },
+        {
+          "id": "g-03",
+          "body": "有人把最后一遍的视频发群里吗？",
+          "senderId": "yangbowen",
+          "time": "21:23"
+        },
+        {
+          "id": "g-04",
+          "body": "我拍了，但是有个人结束动作差点笑场。",
+          "senderId": "zuoqihan",
+          "time": "21:24"
+        },
+        {
+          "id": "g-05",
+          "body": "谁啊？你最好说清楚。",
+          "senderId": "owner",
+          "time": "21:24"
+        },
+        {
+          "id": "g-06",
+          "body": "某个姓陈的。",
+          "senderId": "zuoqihan",
+          "time": "21:25"
+        },
+        {
+          "id": "g-07",
+          "body": "视频删掉。现在。",
+          "senderId": "owner",
+          "time": "21:25"
+        },
+        {
+          "id": "g-08",
+          "body": "不删，留作证据。",
+          "senderId": "zhanghanrui",
+          "time": "21:26"
+        },
+        {
+          "id": "g-09",
+          "body": "明天谁最早到谁买早餐，别装没看见。",
+          "senderId": "wanglujie",
+          "time": "21:28"
+        }
+      ]
+    },
+    {
+      "id": "chat-chenyiheng",
+      "app": "wechat",
+      "title": "陈奕恒",
+      "participants": [
+        "owner",
+        "chenyiheng"
+      ],
+      "messages": [
+        {
+          "id": "cyh-01",
+          "body": "你落在镜子前面的发夹我先收着了。",
+          "senderId": "chenyiheng",
+          "time": "21:36"
+        },
+        {
+          "id": "cyh-02",
+          "body": "那不是我的，是道具！",
+          "senderId": "owner",
+          "time": "21:37"
+        },
+        {
+          "id": "cyh-03",
+          "body": "好好好，道具。明天记得拿。",
+          "senderId": "chenyiheng",
+          "time": "21:37"
+        }
+      ]
+    },
+    {
+      "id": "chat-sms",
+      "app": "messages",
+      "title": "未接来电提醒",
+      "participants": [
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "sms-01",
+          "body": "22:03 你有一通未接来电。",
+          "sender": "系统",
+          "time": "22:03"
+        },
+        {
+          "id": "sms-02",
+          "body": "来电号码未保存。",
+          "sender": "系统",
+          "time": "22:03"
+        }
+      ]
+    }
+  ],
+  "content": {
+    "photos": [
+      {
+        "id": "photo-01",
+        "title": "最后一遍",
+        "body": "练习室镜子里的一张合照。大家都累得没什么表情，角落里有人比了个很小的耶。",
+        "sender": "陈浚铭",
+        "time": "21:21",
+        "kind": "text"
+      },
+      {
+        "id": "photo-02",
+        "title": "糊掉的背影",
+        "body": "走廊灯光有点暗，左奇函背着包走在前面，照片没对上焦。",
+        "sender": "陈浚铭",
+        "time": "21:41",
+        "kind": "text"
+      },
+      {
+        "id": "photo-03",
+        "title": "明天记得带",
+        "body": "一张随手拍下来的纸条：水杯、外套、充电线。最后一行被手指挡住了。",
+        "sender": "陈浚铭",
+        "time": "21:44",
+        "kind": "text"
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-01",
+        "title": "明天别忘了",
+        "body": "1. 充电线\n2. 黑色外套\n3. 练习视频备份\n4. 问左奇函他说的“东西”到底是什么",
+        "sender": "陈浚铭",
+        "time": "21:56",
+        "kind": "note"
+      },
+      {
+        "id": "note-02",
+        "title": "没发出去的消息",
+        "body": "今天谢谢你等我一起走。其实我知道你也很累。算了，明天当面说吧。",
+        "sender": "陈浚铭",
+        "time": "22:01",
+        "kind": "note",
+        "folder": "草稿"
+      }
+    ],
+    "calendar": [
+      {
+        "id": "cal-01",
+        "title": "排练",
+        "body": "09:30 到练习室；提前检查音乐和视频。",
+        "sender": "日历",
+        "time": "明天 09:30",
+        "kind": "event"
+      },
+      {
+        "id": "cal-02",
+        "title": "早餐赌约",
+        "body": "谁最早到，谁负责买早餐。群聊里所有人都看见了。",
+        "sender": "日历",
+        "time": "明天 09:00",
+        "kind": "event"
+      }
+    ],
+    "phone": [
+      {
+        "id": "call-01",
+        "title": "未接来电",
+        "body": "22:03 · 未保存号码 · 00:12",
+        "sender": "通话记录",
+        "time": "22:03",
+        "kind": "call"
+      },
+      {
+        "id": "call-02",
+        "title": "左奇函",
+        "body": "21:49 · 已接来电 · 00:08",
+        "sender": "通话记录",
+        "time": "21:49",
+        "kind": "call"
+      }
+    ],
+    "music": [
+      {
+        "id": "music-01",
+        "title": "排练循环歌单",
+        "body": "最近播放：练习曲目、节拍器、以及一首没听完的歌。",
+        "sender": "陈浚铭",
+        "time": "21:58"
+      }
+    ],
+    "weibo": [
+      {
+        "id": "post-01",
+        "title": "草稿箱",
+        "body": "今天练到最后一遍的时候，突然觉得大家都很厉害。明天也要继续。",
+        "sender": "陈浚铭",
+        "time": "22:08",
+        "folder": "草稿"
+      }
+    ]
+  },
+  "variables": {},
+  "events": [],
+  "tests": []
+}
